@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg949\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Today I learn.\
+\
+1. \'c5\'d8\'bd\'ba\'c6\'ae \'b8\'f0\'b5\'e5\'b7\'ce \'b5\'e9\'be\'ee\'b0\'a1\'bc\'ad, \'c5\'b0\'ba\'b8\'b5\'e5 \'ba\'b8\'c0\'cc\'b0\'d4 \'c7\'cf\'b1\'e2\
+\
+searchBar.becomeFirstResponder()\
+\'b9\'dd\'b4\'eb\
+searchBar.resignFirstResponder()\
+\
+2. \'ba\'e4\'c0\'c7 \'b8\'f0\'b5\'e7 \'bf\'a1\'b5\'f0\'c6\'c3\'c0\'bb \'b3\'a1\'b3\'bb\'b1\'e2\
+\
+View.endEditing(true)\
+\
+3. \'c1\'a6\'bd\'ba\'c3\'c4 \'b0\'fc\'b7\'c3\
+\
+\'c1\'a6\'bd\'ba\'c3\'b3\'c0\'c7 \'bf\'b9\'bf\'dc \'c3\'b3\'b8\'ae\'c7\'cf\'b1\'e2\
+Gesture delegate func \'be\'c8\'bf\'a1\'bc\'ad\
+If (touch.view?.isDescendat)(of: searchFilterSegment) == true) \{\
+	return false\
+\}\
+\
+UIgestureRecognizerDelegate \'c3\'a4\'c5\'c3,\
+UITapGestureRecognizer \'ba\'af\'bc\'f6 \'bc\'b1\'be\'f0 \'c3\'ca\'b1\'e2\'c8\'ad\
+UITapGestureRecognizer\'ba\'af\'bc\'f6.delegate = self\
+view.addGestureRecognizer(UITapGestureRecognizer\'ba\'af\'bc\'f6)\
+}
